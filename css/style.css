@@ -1,20 +1,81 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-size: 16px; }
+
+body {
+  background-color: #3268a7;
+  width: 100%;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: -40% -200%, 130% 280%;
+  background-size: 40%, 40%;
+  overflow: hidden; }
 
 .card {
   position: relative;
-  width: 30%;
+  width: 22%;
+  height: 500px;
   margin: auto;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  border-radius: 15px;
+  background-color: white; }
 
 .one {
   width: 100%;
-  height: 200px;
-  background-image: url("../images/bg-pattern-card.svg"); }
+  height: 166px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: #2193b0;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.two {
+  width: 100%;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .two div {
+    width: 100%;
+    margin-top: 13%;
+    text-align: center; }
+  .two .info {
+    color: #d1d1d1; }
+  .two .number {
+    font-size: 1.2rem;
+    margin-left: 1.2%; }
+  .two .country {
+    margin-top: 2%; }
+
+.three {
+  width: 100%;
+  height: 109px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid #d1d1d1; }
+  .three .cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .three .tag {
+    color: #d1d1d1;
+    font-size: 0.9rem; }
 
 .photo {
   width: 150px;
@@ -22,6 +83,6 @@
   position: absolute;
   border-radius: 50%;
   border: 6px solid white;
-  top: 40%; }
+  top: 18%; }
 
 /*# sourceMappingURL=style.css.map */

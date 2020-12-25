@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <title>Profile card component</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 
  
 </head>
@@ -13,16 +15,27 @@
   <div class="card">
     <div class="one"></div>
     <div class="two">
-      <span>Juan Pablo Rodríguez</span> <span>34</span>
-      <span>Colombia</span>
+      <div>
+        <span>Juan Pablo Rodríguez</span> <span class='info number'>34</span>
+      </div>
+      <span class='info country'>Colombia</span>
     </div>
     <div class="three">
-      <div>80K</div>
-      <div>Followers</div>
-      <div>803K</div>
-      <div>Likes</div>
-      <div>1.4K</div>
-      <div>Photos</div>
+      <div class="cont">
+        <div>80K</div>
+        <div class='tag'>Followers</div>
+      </div>
+      <div class="cont">
+        <div>803K</div>
+        <div class='tag'>Likes</div>
+      </div>
+      <div class="cont">
+        <div>1.4K</div>
+        <div class='tag'>Photos</div>
+      </div>
+      
+      
+      
     </div>
     <img class="photo" src="./images/JP.jpg" alt="JP photo">
   </div>

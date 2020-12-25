@@ -1,8 +1,29 @@
+@import "variables";
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    background-color: $bgr-main;
+    width: 100%;
+    height: 100vh;
+    font-family: $mainFount;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: -40% -200%, 130% 280%;
+    background-size: 40%, 40%;
+    overflow: hidden;
+   
 }
 
 @import "card";
+
 @import "userPhoto";
