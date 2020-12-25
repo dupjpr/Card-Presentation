@@ -1,0 +1,10 @@
+@import "variables";
+
+.photo{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    border-radius: 50%;
+    border: 6px solid $border ;
+    top: 40%;  
+}
